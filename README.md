@@ -18,6 +18,10 @@ This project demonstrates data understanding, preprocessing, imbalanced classifi
 
 ---
 
+![Project Workflow](reports/figures/project_workflow_infographic.png)
+
+---
+
 ## Dataset
 
 Dataset source: Kaggle Drug Efficacy Dataset
@@ -114,6 +118,10 @@ The original target was a count variable, so I also modeled the number of exacer
 
 Count prediction was difficult because most patients had zero exacerbations. The models mostly predicted values close to the overall mean and underestimated patients with multiple exacerbations.
 
+---
+
+
+![Model Comparison](reports/figures/model_comparison.png)
 
 ---
 
